@@ -1,0 +1,24 @@
+{
+  "name": "leetcode-record",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "init": "npx docsify init ./docs",
+    "preview": "npx docsify serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarmenChanCKY/leetcode-record.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarmenChanCKY/leetcode-record/issues"
+  },
+  "homepage": "https://github.com/CarmenChanCKY/leetcode-record#readme",
+  "description": "",
+  "dependencies": {
+    "docsify-cli": "^4.4.4"
+  }
+}
