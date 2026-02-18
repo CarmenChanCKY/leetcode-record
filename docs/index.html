@@ -7,96 +7,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="My LeetCode progress and solutions">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" media="(prefers-color-scheme: light)"
-    href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-  <link rel="stylesheet" media="(prefers-color-scheme: dark)"
-    href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link id="light-css" rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link id="dark-css" rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
-
-  <style>
-    .search .clear-button.show {
-      display: flex !important;
-      align-items: center;
-    }
-
-    footer {
-      margin-left: var(--sidebar-width);
-      padding-left: 2rem;
-      line-height: 50px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      transition: all var(--sidebar-transition-duration) ease-out;
-      border-top: 1px solid var(--sidebar-border-color);
-      font-size: 0.875rem;
-    }
-
-    body.close footer {
-      margin-left: 0;
-      transform: translateX(0);
-    }
-
-    .sidebar-nav ul li.file a {
-      padding-left: 0 !important;
-      background: none !important;
-      text-overflow: initial !important;
-      text-wrap: auto !important;
-    }
-
-    .sidebar-nav ul li.folder {
-      padding: var(--sidebar-nav-pagelink-padding, var(--sidebar-nav-link-padding));
-    }
-
-    .sidebar-nav ul:not(.app-sub-sidebar)>li:not(.file)::before {
-      width: 0.5em;
-      height: 0.5em;
-      top: 12px;
-      left: 0;
-      border-right: 1px solid var(--base-color);
-      border-bottom: 1px solid var(--base-color);
-    }
-  </style>
-
+  <link rel="stylesheet" href="/assets/css/main.css" />
 </head>
 
 <body>
+  <nav>
+    <button class="btn change-theme-btn"></button>
+  </nav>
+
   <div id="app"></div>
 
   <script>
     window.$docsify = {
-      name: 'LeetCode Record',
+      name: "LeetCode Record",
       loadNavbar: true,
       auto2top: true,
-      autoHeader: true,
       loadSidebar: true,
       sidebarDisplayLevel: 1,
+      noCompileLinks: ['/assets/*'],
+      repo: 'https://github.com/CarmenChanCKY/leetcode-record',
       search: {
-        placeholder: 'Search...',
-        noData: 'Data not found',
-        hideOtherSidebarContent: true
+        placeholder: "Search...",
+        noData: "Data not found",
+        hideOtherSidebarContent: true,
       },
       copyCode: {
-        buttonText: 'Copy',
-        errorText: 'Error',
-        successText: 'Copied',
+        buttonText: "Copy",
+        errorText: "Error",
+        successText: "Copied",
       },
-    }
-
-    window.addEventListener("DOMContentLoaded", function () {
-      const year = new Date().getFullYear()
-
-      const footer = document.createElement("footer");
-      footer.textContent = `© Copyright ${year}, Carmen Chan`
-      document.querySelector("main").appendChild(footer)
-      //document.querySelector(".footer").innerHTML = 
-    })
+    };
   </script>
   <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4.10.2/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="//unpkg.com/docsify-copy-code@3.0.2"></script>
 </body>
 
 </html>
