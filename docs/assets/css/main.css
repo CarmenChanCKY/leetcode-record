@@ -33,13 +33,13 @@
 }
 
 .app-nav > .btn.change-theme-btn.dark {
-  background-color: #FFC107;
+  background-color: #ffc107;
   -webkit-mask-image: url("/assets/img/dark.svg");
   mask-image: url("/assets/img/dark.svg");
 }
 
 .app-nav > .btn.change-theme-btn.light {
-  background-color: #FF6C00;
+  background-color: #ff6c00;
   -webkit-mask-image: url("/assets/img/light.svg");
   mask-image: url("/assets/img/light.svg");
 }
@@ -60,15 +60,11 @@ body.close footer {
 }
 
 /* side bar customize css */
-.sidebar-nav ul li.file a {
+.sidebar-nav ul li a {
   padding-left: 0 !important;
   background: none !important;
   text-overflow: initial !important;
   text-wrap: auto !important;
-}
-
-.sidebar-nav ul li.folder {
-  padding: var(--sidebar-nav-pagelink-padding, var(--sidebar-nav-link-padding));
 }
 
 @media screen and (max-width: 768px) {
