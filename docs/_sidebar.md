@@ -1,2 +1,4 @@
 - Easy
-  <!-- - [test](easy/TEST.md) -->
+  - [190. Reverse Bits](easy/190.md)
+  - [3379. Transformed Array](easy/3379.md)
+  - [3637. Trionic Array I](easy/3637.md)

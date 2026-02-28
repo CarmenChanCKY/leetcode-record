@@ -22,16 +22,19 @@ function initTheme() {
 
 function changeTheme(isDark = true) {
   isDarkTheme = isDark;
+  const html = document.querySelector("html");
   const darkCSS = document.getElementById("dark-css");
   const lightCSS = document.getElementById("light-css");
   const themeBtn = document.querySelector(".app-nav > .btn");
 
   if (isDark) {
+    html.setAttribute("data-theme", "dark");
     darkCSS.removeAttribute("disabled");
     lightCSS.setAttribute("disabled", true);
     themeBtn.classList.remove("light");
     themeBtn.classList.add("dark");
   } else {
+    html.setAttribute("data-theme", "light");
     lightCSS.removeAttribute("disabled");
     darkCSS.setAttribute("disabled", true);
     themeBtn.classList.add("light");

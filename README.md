@@ -9,6 +9,7 @@ My personal collection of LeetCode problems and solutions built with [Docsify](h
 * [search.js](https://docsify.js.org/#/plugins?id=full-text-search)
 * [Prism.js](https://prismjs.com/)
 * [docsify-copy-code v3.0.2](https://github.com/jperasmus/docsify-copy-code)
+* [docsify-latex](https://github.com/scruel/docsify-latex)
 
 ## Viewing the Site Locally
 
@@ -17,7 +18,7 @@ My personal collection of LeetCode problems and solutions built with [Docsify](h
 
    ```bash
    npm install
-   docsify serve docs
+   npm run preview
    ```
 
 4. Open your browser and navigate to `http://localhost:3000` (or the port shown in the terminal).

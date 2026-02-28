@@ -39,6 +39,10 @@
         errorText: "Error",
         successText: "Copied",
       },
+      latex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']], // default
+        displayMath: [['$$', '$$']],               // default
+      }
     };
 
   </script>
@@ -47,6 +51,10 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-typescript.min.js"></script>
+  <!-- LaTeX display engine -->
+  <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <!--  docsify-latex plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
   <script src="/assets/js/main.js"></script>
   <script src="//unpkg.com/docsify-copy-code@3.0.2"></script>
 </body>
