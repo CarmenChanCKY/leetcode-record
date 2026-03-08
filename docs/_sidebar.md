@@ -2,3 +2,5 @@
   - [190. Reverse Bits](easy/190.md)
   - [3379. Transformed Array](easy/3379.md)
   - [3637. Trionic Array I](easy/3637.md)
+- Medium
+  - [6. Zigzag Conversion](medium/6.md)
