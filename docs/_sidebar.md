@@ -4,3 +4,4 @@
   - [3637. Trionic Array I](easy/3637.md)
 - Medium
   - [6. Zigzag Conversion](medium/6.md)
+  - [788. Rotated Digits](medium/788.md)

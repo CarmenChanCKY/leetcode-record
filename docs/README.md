@@ -4,6 +4,9 @@ Hello I am Carmen Chan. In this website, I will share the LeetCode problems I ha
 
 ## CHANGELOG
 
+## 2026-05-03
+* add [788](medium/788.md)
+
 ## 2026-03-08
 * add [6](medium/6.md)
 
