@@ -4,10 +4,10 @@ Hello I am Carmen Chan. In this website, I will share the LeetCode problems I ha
 
 ## CHANGELOG
 
-## 2026-05-03
-* add [788](medium/788.md)
+### 2026-05-03
+* add [175](easy/175.md), [178](medium/178.md), [788](medium/788.md), [796](easy/796.md)
 
-## 2026-03-08
+### 2026-03-08
 * add [6](medium/6.md)
 
 ### 2026-03-01
