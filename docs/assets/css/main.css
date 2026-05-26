@@ -73,6 +73,11 @@ html[data-theme="dark"] {
   margin: 1rem 0 0 0;
 }
 
+.caption {
+  text-align: center;
+  font-size: 0.875rem;
+}
+
 footer {
   margin-left: var(--sidebar-width);
   padding-left: 2rem;

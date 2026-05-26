@@ -2,9 +2,11 @@
   - [175. Combine Two Tables](easy/175.md)
   - [190. Reverse Bits](easy/190.md)
   - [796. Rotate String](easy/796.md)
+  - [3120. Count the Number of Special Characters I](easy/3120.md)
   - [3379. Transformed Array](easy/3379.md)
   - [3637. Trionic Array I](easy/3637.md)
 - Medium
   - [6. Zigzag Conversion](medium/6.md)
+  - [11. Container With Most Water](medium/11.md)
   - [178. Rank Scores](medium/178.md)
   - [788. Rotated Digits](medium/788.md)
