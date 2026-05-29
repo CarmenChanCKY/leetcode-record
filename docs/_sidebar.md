@@ -2,7 +2,9 @@
   - [175. Combine Two Tables](easy/175.md)
   - [190. Reverse Bits](easy/190.md)
   - [796. Rotate String](easy/796.md)
+  - [1945. Sum of Digits of String After Convert](easy/1945.md)
   - [3120. Count the Number of Special Characters I](easy/3120.md)
+  - [3300. Minimum Element After Replacement With Digit Sum](easy/3300.md)
   - [3379. Transformed Array](easy/3379.md)
   - [3637. Trionic Array I](easy/3637.md)
 - Medium

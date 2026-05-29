@@ -4,6 +4,9 @@ Hello I am Carmen Chan. In this website, I will share the LeetCode problems I ha
 
 ## CHANGELOG
 
+### 2026-05-29
+* add [1945](easy/1945.md), [3300](easy/3300.md)
+
 ### 2026-05-26
 * add [11](medium/11.md), [3120](easy/3120.md)
 
