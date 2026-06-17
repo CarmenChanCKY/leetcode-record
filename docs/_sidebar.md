@@ -10,6 +10,8 @@
 - Medium
   - [6. Zigzag Conversion](medium/6.md)
   - [11. Container With Most Water](medium/11.md)
+  - [19. Remove Nth Node From End of List](medium/19.md)
+  - [102. Binary Tree Level Order Traversal](medium/102.md)
   - [178. Rank Scores](medium/178.md)
   - [227. Basic Calculator II](medium/227.md)
   - [788. Rotated Digits](medium/788.md)
