@@ -1,6 +1,7 @@
 - Easy
   - [175. Combine Two Tables](easy/175.md)
   - [190. Reverse Bits](easy/190.md)
+  - [653. Two Sum IV - Input is a BST](easy/653.md)
   - [796. Rotate String](easy/796.md)
   - [1945. Sum of Digits of String After Convert](easy/1945.md)
   - [3120. Count the Number of Special Characters I](easy/3120.md)
